@@ -45,6 +45,12 @@ export default function Search() {
           Icon: <img src={weather.icon} alt={weather.description} />
         </li>
       </ul>
+      <div>
+        <i>
+          The repo to this open sourced project can be found{" "}
+          <a href="https://github.com/Pamchema/second-vite-testing-app">here</a>{" "}
+        </i>
+      </div>
     </div>
   );
 }
